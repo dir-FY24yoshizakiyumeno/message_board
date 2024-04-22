@@ -4,8 +4,7 @@ import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
 
-public class DButil {
-    
+public class DBUtil {
     private static final String PERSISTENCE_UNIT_NAME = "message_board";
     private static EntityManagerFactory emf;
 
@@ -20,5 +19,4 @@ public class DButil {
 
         return emf;
     }
-
 }
